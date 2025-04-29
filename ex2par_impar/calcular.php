@@ -1,11 +1,14 @@
 <?php
-function multiplicar($a, $b) {
-    return ($a * $b);
+
+function imparPar($a) {
+    return ($a % 1);
 }
 
-$valor1 = $_POST['valor1'];
-$valor2 = $_POST['valor2'];
-$multi = multiplicar($valor1, $valor2);
+$n = $_POST['n'];
+if ($n % 2 == 0) {
+    echo "O número $n é par";
+} else {
+    echo "O número $n é ímpar";
+}
 
-echo "O resultado da multiplicação de $valor1 e $valor2 é: $multi";
 ?>
