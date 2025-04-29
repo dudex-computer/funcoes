@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digite o número</title>
+    <title>Funções</title>
 </head>
 <body>
     <fieldset>
