@@ -1,4 +1,5 @@
 <?php
+
 function maior($a, $b, $c) {
     if ($a > $b && $a > $c) {
         return $a;
